@@ -3,7 +3,7 @@ using namespace std;
 
 double square(double x) {
 
-    return x * x;
+    return x * x * x;
 }
 
 void print_square(double x) {
@@ -12,5 +12,6 @@ void print_square(double x) {
 
 
 int main() {
-    print_square(1.45);
+    print_square(3.45);
+
 }

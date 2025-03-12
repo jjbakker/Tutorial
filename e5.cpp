@@ -3,14 +3,11 @@ using namespace std;
 
 int getValue() {
 
-
     cout << "Enter integer:  ";
     int input{};
     cin >> input;
 
     return input;
-    
-
 }
 
 
